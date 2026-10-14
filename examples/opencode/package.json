@@ -1,0 +1,6 @@
+{
+  "name": "iteracompute-opencode-example",
+  "private": true,
+  "scripts": { "code": "opencode" },
+  "devDependencies": { "opencode-ai": "1.19.0" }
+}
