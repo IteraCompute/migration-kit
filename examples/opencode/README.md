@@ -30,6 +30,8 @@ $env:ITERACOMPUTE_API_KEY = "your-api-key"
 
 `opencode.json` reads that variable explicitly through `{env:ITERACOMPUTE_API_KEY}`. Both primary and small model use free Qwen; only the IteraCompute provider is enabled. The key is never stored in the configuration file.
 
+Qwen's input/output prices are explicitly set to zero for OpenCode's local cost estimate. Your IteraCompute Console remains the source for allowance and billing.
+
 **Model ID distinction:** OpenCode's `model` selector is `iteracompute/qwen/qwen3.8-27b`: `iteracompute` selects the configured client provider. The model key inside `provider.iteracompute.models`, and the model ID sent to the API, are `qwen/qwen3.8-27b`. Never copy OpenCode's full selector into the API `model` field.
 
 ## 3. Make a disposable project and reproduce the bug
