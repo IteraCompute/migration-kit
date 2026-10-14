@@ -1,0 +1,9 @@
+{
+  "name": "iteracompute-migration-kit",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": { "quickstart": "tsx examples/openai_typescript.ts" },
+  "dependencies": { "openai": "7.32.0" },
+  "devDependencies": { "tsx": "4.23.15" }
+}

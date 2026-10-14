@@ -1,0 +1,4 @@
+On October 14, the team agreed to launch the customer feedback dashboard on October 21.
+Maya owns the release checklist and will finish it by October 18.
+Leo will add CSV export before the launch. A mobile layout is deferred to the next release.
+The launch is blocked until the export tests pass and the support guide is reviewed.
